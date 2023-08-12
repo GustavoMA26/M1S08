@@ -1,0 +1,58 @@
+<!--Ex.2) Crie uma nova página que será a nossa página de login. Nela precisaremos adicionar um formulário com dois inputs:
+
+Login - receberá um email
+Senha - receberá a senha do usuário
+Após os inputs deve haver um botão que chamará a função de login que será criada conforme o próximo exercício. -->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato | FarmaDEV Medicamentos</title>
+    <!--Bootstrap CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+    <!-- <script src="https://kit.fontawesome.com/85827dd052.js" crossorigin="anonymous"></script> -->
+
+    <!--Bootstrap Scripts-->
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script src="scripts/auth.js"></script>
+
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg fixed-top" id="nav-container">    
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                <img src="/images/logo_FarmaDEV.svg" alt="Logo FarmDev" width="75" height="60">
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Acesse a plataforma</h1>
+<!-- Ex. 2) e 3) Formulário de Acesso / 5) -->
+        <form id="form">
+            <div class="mb-3">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Digite seu email">
+            </div>
+            <div class="mb-3">
+            <label for="password" class="form-label">Senha</label>
+            <input type="password" class="form-control" id="password" placeholder="Digite sua senha">
+            </div>
+            <div class="mb-3">
+                <p><a href="/cadastro.html">Não tem cadastro? Cadastre agora</a></p>
+            </div>
+            <button type="submit" class="btn btn-primary" >Acessar</button>
+        </form>
+    </main>
+    <script src="/scripts/dados.js"></script>
+    <script src="/scripts/login.js"></script>
+
+</body>
+</html>
