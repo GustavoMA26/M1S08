@@ -1,0 +1,58 @@
+<!--6) Crie uma nova página para cadastro de novos usuários. Esta página deve conter um formulário que terá os seguintes inputs: nome -- login--senha
+
+Deve ter ainda ao final do formulário um botão que chamará a função de cadastro de novos usuários que será criada no próximo exercício. -->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Cadastro | FarmaDEV Medicamentos</title>
+    <!--Bootstrap CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+    <!-- <script src="https://kit.fontawesome.com/85827dd052.js" crossorigin="anonymous"></script> -->
+
+    <!--Bootstrap Scripts-->
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg fixed-top" id="nav-container">    
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                <img src="/images/logo_FarmaDEV.svg" alt="Logo FarmDev" width="75" height="60">
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+<body>
+    <h1>Cadastro de Usuários</h1>
+    <main>
+        <form id="form-cadastro">
+            <div class="mb-3">
+                <label for="fname" class="form-label">Nome:</label>
+                <input type="text" name="fname" class="form-control" id="name" placeholder="Digite seu nome">
+              </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Email:</label>
+              <input type="email" name="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Digite seu email">
+            </div>
+            <div class="mb-3">
+              <label for="password" class="form-label">Senha:</label>
+              <input type="password" name="password" class="form-control" id="password" placeholder="Digite sua senha">
+            </div>
+            <button type="submit" class="btn btn-primary">Cadastrar</button>
+          </form>
+    </main>
+    <script src="scripts/auth.js"></script>
+    <script src="/scripts/dados.js"></script>
+    <script src="/scripts/cadastroUsuario.js"></script>
+
+</body>
+</html>
