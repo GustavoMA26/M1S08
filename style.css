@@ -1,0 +1,186 @@
+/* GLOBAL */
+* { font-family: 'Poppins', sans-serif;
+}
+
+/* Gerais */
+.row {
+    margin:0;
+}
+
+.container {
+    padding: 70px 0;
+}
+
+/* Barra de Navegação */
+@media (max-width: 480px) {
+    #nav-container {
+        padding: 0px 50px;
+    }
+    #navbar-links {
+        text-align:left;
+    }
+    .contato {
+        padding: 20px;
+    }
+    .container {
+        padding: 20px 0;
+    }
+
+}
+
+header, .navbar {
+    background-color: #f7f5f5;
+    padding: 0px 100px;
+}
+
+#navbar-links a:hover {
+    text-decoration:underline;
+    color: #ff8a25;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding: 1rem .8rem;
+}
+
+/* Slider de Ofertas */
+
+body {
+    padding: 70px;
+}
+
+.container-fluid {
+    padding:0;
+}
+
+/* Cards */
+
+.card {
+    background-color: white;
+    border: 2px solid #f2f2f2;
+    width: 279px;
+    height: 495px;
+    border-radius: 15px;
+}
+
+.card button {
+    font-size: 16px;
+    color:white;
+    border-radius: 10px;
+    padding: 8px 16px;
+    background-color: #40b59a;
+    margin-top: 30px;
+    cursor:pointer;
+}
+
+.card button:hover {
+    background-color:#ff8a25;
+}
+
+.cards img {
+    width: 200px;
+    height: 200px;
+    margin: 30px 0px;  
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card-text {
+    margin-top: 20px;
+}
+
+.fa-basket-shopping {
+    color: #ffffff;
+}
+
+.icon-action {
+    position: absolute;
+    margin: 20px 0px 0px 220px;
+    color: #e6e5e5;
+    cursor:pointer;
+}
+
+/* Formulário */
+
+#form{
+    background-color: #f2f2f2;
+    padding: 40px;
+    border-radius: 20px;
+}
+
+.btn {
+    padding: 10px;
+    background-color:#344bf0;
+    border-color:#344bf0;
+    color: white;
+    margin-top: 20px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.btn:hover {
+    background-color:#ff8a25;
+}
+
+#mensagem {
+    height: 100px;
+}
+
+/* Footer */
+
+#copy-area {
+    background-color:#f2f2f2
+}
+
+#copy-area .container {
+    padding: 10px 0;
+    text-align: center;
+}
+
+#copy-area .container p{
+    margin: 0;
+}
+
+.embed-responsive {
+    margin-bottom:-10px;
+}
+
+
+/* Sobre */
+
+.about-title {
+    margin: 0 0 65px 0;
+    text-align: center;
+    
+}
+
+#about-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+#about-list li {
+    line-height: 30px;
+}
+
+#about-list li i {
+    color:#344bf0;
+    margin-right: 10px;
+}
+
+#about-area {
+    padding:20px;
+}
+
+#social-icons {
+    padding-top: 20px;
+}
+
+/* Página Início */
+
+.index-title {
+    padding: 50px 0px 0px 0px;
+    letter-spacing: 1px;
+    margin: 0px 20px;
+}
